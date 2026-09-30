@@ -1,3 +1,8 @@
+# Budget	Food	Transport	Expected result
+# 5000 1500 2000 1500
+# 5000 0    0    5000
+# 5000 3500 4500 -3000
+
 def budget_remaining(budget, food, transport):
     return budget - (food + transport)
 
