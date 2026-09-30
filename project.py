@@ -2,7 +2,7 @@ def budget_remaining(budget, food, transport):
     return budget - (food + transport)
 
 def budget_message(name, remaining):
-    return f"{name}, you have {remaining} naira remaining."
+    return f"{name} has {remaining} naira remaining."
 
 print("---Normal Test Case---")
 section_1 = budget_remaining(5000, 1500, 2000)
